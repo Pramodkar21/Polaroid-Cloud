@@ -32,9 +32,8 @@ main {
 
 /* HERO SECTION */
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: block;
+    text-align: center;
     min-height: 800px;
     padding: 0 40px;
 }
