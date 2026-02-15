@@ -46,6 +46,7 @@ main {
     text-align: center;
     width: 100%;
     white-space: normal;
+    margin-bottom: 0;
 }
 
 .hero img {
@@ -63,7 +64,8 @@ main {
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
-    font-weight: 700
+    font-weight: 700;
+    margin-top: 0;
 }
 
 .details p {
@@ -123,7 +125,8 @@ main {
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
-    font-weight: 700
+    font-weight: 700;
+    margin-top: 0;
 }
 
 /* Grey rectangle + centered form */
