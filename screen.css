@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --main-bg-color: #E9E9E9;
+    --primary-text-color: #424242;
+    --accent-color: #FF3F3C;
+}
+
+body {
+    background: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 40px;
+}  
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    margin: 0 auto;
+    width: 1000px;
+    padding-top: 40px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 800px;
+    padding: 0 40px;
+}
+
+.hero h2 {
+    font-size: 9em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.hero img {
+    width: 400px;
+    height: auto;
+}
+
+.details {
+    padding: 40px;
+}
+
+.details h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.details p {
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.details ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.wifi-icon {
+  background: url('wifi-solid.svg') no-repeat center left;
+  background-size: 1.25rem;
+  padding-left: 2rem;
+}
+
+.cloud-icon {
+  background: url('cloud-solid.svg') no-repeat center left;
+  background-size: 1.25rem;
+  padding-left: 2rem;
+}
+
+.qrcode-icon {
+  background: url('qrcode-solid.svg') no-repeat center left;
+  background-size: 1.25rem;
+  padding-left: 2rem;
+}
+
+.users-icon {
+  background: url('users-solid.svg') no-repeat center left;
+  background-size: 1.25rem;
+  padding-left: 2rem;
+}
+
+.cta {
+    padding: 40px;
+    text-align: center;
+}
+
+.cta h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.cta form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.cta input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cta input[type="button"] {
+    padding: 10px 20px;
+    background: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+section {
+    margin-bottom: 80px;
+}
