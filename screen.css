@@ -34,7 +34,7 @@ main {
 .hero {
     display: block;
     text-align: center;
-    min-height: 650px; /* reduced from 800px */
+    min-height: 500px; /* reduced from 800px */
     padding: 0 40px;
 }
 
@@ -61,7 +61,7 @@ main {
 
 .details h3 {
     font-size: 2em;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
@@ -134,6 +134,7 @@ main {
     background: #D9D9D9; /* grey box */
     padding: 20px;
     border-radius: 8px;
+    box-sizing: border-box; /* ensures padding doesn't increase width */
 }
 
 .cta input[type="text"] {
