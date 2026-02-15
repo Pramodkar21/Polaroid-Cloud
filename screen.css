@@ -45,6 +45,7 @@ main {
     margin: 0;
     text-align: center;
     width: 100%;
+    white-space: normal;
 }
 
 .hero img {
