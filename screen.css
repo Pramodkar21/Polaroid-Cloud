@@ -34,7 +34,7 @@ main {
 .hero {
     display: block;
     text-align: center;
-    min-height: 300px; /* reduced from 800px */
+    min-height: 280px; /* reduced from 800px */
     padding: 0 40px;
 }
 
@@ -55,7 +55,7 @@ main {
 
 /* DETAILS SECTION */
 .details {
-    padding: 20px 40px 20px; /* reduced bottom padding */
+    padding: 10px 40px 10px; /* reduced bottom padding */
     text-align: left;
 }
 
@@ -63,6 +63,7 @@ main {
     font-size: 2em;
     margin-bottom: 10px;
     text-align: center;
+    font-weight: 700
 }
 
 .details p {
@@ -115,13 +116,14 @@ main {
 .cta {
     padding: 40px;
     text-align: left;
-    margin-top: 20px; /* reduced from 60px */
+    margin-top: 10px; /* reduced from 60px */
 }
 
 .cta h3 {
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
+    font-weight: 700
 }
 
 /* Grey rectangle + centered form */
