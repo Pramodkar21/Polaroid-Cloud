@@ -34,7 +34,7 @@ main {
 .hero {
     display: block;
     text-align: center;
-    min-height: 800px;
+    min-height: 650px; /* reduced from 800px */
     padding: 0 40px;
 }
 
@@ -55,7 +55,7 @@ main {
 
 /* DETAILS SECTION */
 .details {
-    padding: 40px;
+    padding: 40px 40px 20px; /* reduced bottom padding */
     text-align: left;
 }
 
@@ -115,7 +115,7 @@ main {
 .cta {
     padding: 40px;
     text-align: left;
-    margin-top: 60px;
+    margin-top: 40px; /* reduced from 60px */
 }
 
 .cta h3 {
@@ -124,13 +124,16 @@ main {
     text-align: center;
 }
 
-/* Align CTA form with paragraph */
+/* Grey rectangle + centered form */
 .cta form {
     width: 518px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 10px; /* reduced from 20px */
+    background: #D9D9D9; /* grey box */
+    padding: 20px;
+    border-radius: 8px;
 }
 
 .cta input[type="text"] {
@@ -151,5 +154,5 @@ main {
 }
 
 section {
-    margin-bottom: 80px;
+    margin-bottom: 40px; /* reduced from 80px */
 }
