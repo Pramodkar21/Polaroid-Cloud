@@ -90,7 +90,7 @@ main {
 .details ul li {
     list-style-type: none;
     padding-left: 2rem;
-    margin-bottom: 12px;
+    margin-bottom: 4px;
     line-height: 1.6;
 }
 
@@ -132,7 +132,7 @@ main {
     margin-bottom: 20px;
     text-align: center;
     font-weight: 700;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 /* Grey rectangle + centered form */
