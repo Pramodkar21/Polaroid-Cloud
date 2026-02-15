@@ -17,7 +17,7 @@ body {
 header {
     padding: 20px;
     margin-bottom: 40px;
-}  
+}
 
 header h1 {
     margin: 0;
@@ -26,10 +26,11 @@ header h1 {
 
 main {
     margin: 0 auto;
-    width: 1000px;
+    width: 1200px; /* widened for proper hero layout */
     padding-top: 40px;
 }
 
+/* HERO SECTION */
 .hero {
     display: flex;
     align-items: center;
@@ -50,6 +51,7 @@ main {
     height: auto;
 }
 
+/* DETAILS SECTION */
 .details {
     padding: 40px;
 }
@@ -66,37 +68,37 @@ main {
 
 .details ul li {
     list-style-type: none;
-    margin: 10px 0;
-    padding: 0;
+    padding-left: 2rem;
+    margin-bottom: 12px; /* spacing fix */
+    line-height: 1.6;    /* prevents overlap */
 }
 
+/* ICONS */
 .wifi-icon {
-  background: url('wifi-solid.svg') no-repeat center left;
-  background-size: 1.25rem;
-  padding-left: 2rem;
+    background: url('wifi-solid.svg') no-repeat center left;
+    background-size: 1.25rem;
 }
 
 .cloud-icon {
-  background: url('cloud-solid.svg') no-repeat center left;
-  background-size: 1.25rem;
-  padding-left: 2rem;
+    background: url('cloud-solid.svg') no-repeat center left;
+    background-size: 1.25rem;
 }
 
 .qrcode-icon {
-  background: url('qrcode-solid.svg') no-repeat center left;
-  background-size: 1.25rem;
-  padding-left: 2rem;
+    background: url('qrcode-solid.svg') no-repeat center left;
+    background-size: 1.25rem;
 }
 
 .users-icon {
-  background: url('users-solid.svg') no-repeat center left;
-  background-size: 1.25rem;
-  padding-left: 2rem;
+    background: url('users-solid.svg') no-repeat center left;
+    background-size: 1.25rem;
 }
 
+/* CTA SECTION */
 .cta {
     padding: 40px;
-    text-align: center;
+    text-align: center; /* centers heading + form */
+    margin-top: 60px;   /* separates from details */
 }
 
 .cta h3 {
@@ -107,7 +109,7 @@ main {
 .cta form {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .cta input[type="text"] {
