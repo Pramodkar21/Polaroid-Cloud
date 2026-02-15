@@ -44,6 +44,8 @@ main {
     line-height: 1em;
     text-transform: uppercase;
     margin: 0;
+    text-align: center;
+    width: 100%;
 }
 
 .hero img {
@@ -59,6 +61,7 @@ main {
 .details h3 {
     font-size: 2em;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .details p {
