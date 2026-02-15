@@ -34,7 +34,7 @@ main {
 .hero {
     display: block;
     text-align: center;
-    min-height: 180px; /* reduced from 800px */
+    min-height: 120px; /* reduced from 800px */
     padding: 0 40px;
 }
 
@@ -54,6 +54,10 @@ main {
     height: auto;
     display: block;
     margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+
 }
 
 /* DETAILS SECTION */
