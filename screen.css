@@ -49,13 +49,15 @@ main {
 }
 
 .hero img {
-    width: 400px;
+    width: 600px;
     height: auto;
 }
+
 
 /* DETAILS SECTION */
 .details {
     padding: 40px;
+    text-align: left;
 }
 
 .details h3 {
@@ -100,7 +102,7 @@ main {
 /* CTA SECTION */
 .cta {
     padding: 40px;
-    text-align: center; /* centers heading + form */
+    text-align: left;
     margin-top: 60px;   /* separates from details */
 }
 
@@ -111,7 +113,7 @@ main {
 
 .cta form {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
 }
 
