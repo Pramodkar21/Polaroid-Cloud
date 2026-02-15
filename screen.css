@@ -34,7 +34,7 @@ main {
 .hero {
     display: block;
     text-align: center;
-    min-height: 240px; /* reduced from 800px */
+    min-height: 180px; /* reduced from 800px */
     padding: 0 40px;
 }
 
@@ -55,7 +55,7 @@ main {
 
 /* DETAILS SECTION */
 .details {
-    padding: 5px 40px 10px; /* reduced bottom padding */
+    padding: 0px 40px 10px; /* reduced bottom padding */
     text-align: left;
 }
 
@@ -116,7 +116,7 @@ main {
 .cta {
     padding: 40px;
     text-align: left;
-    margin-top: 5px; /* reduced from 60px */
+    margin-top: 0px; /* reduced from 60px */
 }
 
 .cta h3 {
